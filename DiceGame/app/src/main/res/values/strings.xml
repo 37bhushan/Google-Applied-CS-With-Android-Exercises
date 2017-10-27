@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DiceGame</string>
+    <string name="ScorePlayer">00</string>
+    <string name="ScoreComp">00</string>
+    <string name="TitleComp">Comp :</string>
+    <string name="TitlePlayer">Player :</string>
+    <string name="PlayerScore">00</string>
+    <string name="CompScore">00</string>
+</resources>
