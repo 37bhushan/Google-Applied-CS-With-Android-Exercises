@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ghost-Computer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonChallenge">Challenge</string>
+    <string name="PlayerScore">0</string>
+    <string name="CompScore">0</string>
+</resources>

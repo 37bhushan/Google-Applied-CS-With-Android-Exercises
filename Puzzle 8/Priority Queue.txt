@@ -1,0 +1,15 @@
+    public int priority() {
+        int distance = 0;
+        for(int i = 0;i<NUM_TILES * NUM_TILES;i++){
+            PuzzleTile tile = tiles.get(i);
+            if(tile != null){
+                int correctPosition = tile.getNumber();
+                int correctX = correctPosition%NUM_TILES;
+                int correctY = correctPosition/NUM_TILES;
+                int currentX = i%NUM_TILES;
+                int currentY = i/NUM_TILES;
+                distance = distance + (Math.abs(currentX - correctX)) + Math.abs(currentY - correctY);
+            }
+        }
+        return distance + steps;
+    }
